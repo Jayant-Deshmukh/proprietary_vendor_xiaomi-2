@@ -1548,3 +1548,8 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
+
+# Camera Switch Delay
+PRODUCT_COPY_FILES += \
+ vendor/xiaomi/land/proprietary/lib/libc.so:system/lib/libc.so \
+ vendor/xiaomi/land/proprietary/lib64/libc.so:system/lib64/libc.so
